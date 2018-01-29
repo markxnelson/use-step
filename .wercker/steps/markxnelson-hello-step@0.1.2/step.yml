@@ -1,0 +1,9 @@
+name: hello-step
+version: 0.1.2
+summary: A real fine step
+keywords:
+  - hello
+properties:
+  - name: myname
+    type: string
+    required: true

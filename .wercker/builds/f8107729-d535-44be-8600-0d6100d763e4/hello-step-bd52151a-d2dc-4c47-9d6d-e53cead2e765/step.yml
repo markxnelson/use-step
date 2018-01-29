@@ -1,0 +1,8 @@
+name: hello-step
+version: 0.1.0
+description: I just say hello. 
+keywords:
+  - hello
+properties:
+  name:
+    type: string

@@ -1,0 +1,14 @@
+# mark
+
+box:
+  id: store/oracle/serverjre
+  username: $DOCKER_USERNAME
+  password: $DOCKER_PASSWORD
+  tag: 8
+
+# this pipeline does not really do anything
+dev:
+  steps:
+    - markxnelson/hello-step@0.1.2 "https://github.com/markxnelson/hello-step/archive/master.tar.gz": 
+      myname: "Mike"
+    - internal/shell
