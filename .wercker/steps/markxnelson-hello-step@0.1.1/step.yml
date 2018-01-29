@@ -1,8 +1,0 @@
-name: hello-step
-version: 0.1.1
-keywords:
-  - hello
-properties:
-  myname:
-    type: string
-    required: true
